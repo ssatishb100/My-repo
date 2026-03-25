@@ -4,6 +4,7 @@ from langchain_community.vectorstores import Chroma
 from langchain_openai import OpenAIEmbeddings, ChatOpenAI
 from langchain.docstore.document import Document
 import os
+import subprocess
 
 st.set_page_config(page_title="AI Ticket Auditor", layout="wide")
 st.title("🤖 AI Ticket Auditor (History-Based)")
