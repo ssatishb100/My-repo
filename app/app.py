@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 from langchain_community.vectorstores import Chroma
 from langchain_openai import OpenAIEmbeddings, ChatOpenAI
-from langchain.docstore.document import Document
+from langchain_core.documents import Document
 import os
 import subprocess
 
